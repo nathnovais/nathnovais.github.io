@@ -1,7 +1,7 @@
 :root {
     --purple: #BE185D;
     --purple-light: #F472B6;
-    --orange: #16A34A;
+    --orange: #15803D;
     --orange-light: #4ADE80;
     --dark: #1A0A12;
     --white: #FFFFFF;
@@ -64,7 +64,7 @@ body {
 /* ── Hero ── */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, var(--dark) 0%, #831843 60%, #BE185D 100%);
+    background: linear-gradient(135deg, var(--dark) 0%, #831843 60%, var(--purple) 100%);
     display: flex;
     align-items: center;
     padding: 0 64px;
